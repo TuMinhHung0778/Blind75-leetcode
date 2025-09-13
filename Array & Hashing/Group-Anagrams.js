@@ -55,6 +55,7 @@ class Solution {
 
         for (let str of strs) {
             let count = new Array(26).fill(0);
+            let m = new Set
 
             for (let char of str) {
                 count[char.charCodeAt(0) - 'a'.charCodeAt(0)]++;
